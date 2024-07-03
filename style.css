@@ -58,19 +58,6 @@ strong {
   color: #f2cd5e;
 }
 
-/* .insta,
-.github {
-    height: 50px;
-    width: 200px;
-    background-color: #d0c265;
-    border-radius: 10px;
-    border: none;
-    font-size: 20px;
-    font-family: "krona", sans-serif;
-    margin: 10px;
-    align-items: baseline;
-} */
-
 .botoes {
   display: flex;
   flex-wrap: nowrap;
