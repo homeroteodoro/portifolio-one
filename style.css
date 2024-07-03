@@ -1,0 +1,93 @@
+body {
+  background-color: #105c46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.miolo {
+  width: 850px;
+  height: 400px;
+  align-content: center;
+  display: flex;
+  margin-top: 200px;
+}
+
+.textos {
+  background-color: #105c46;
+  display: block;
+}
+
+.minha-imagem {
+  height: 400px;
+  background-color: black;
+  border-radius: 10px;
+  display: block;
+  margin-left: 20px;
+  box-shadow: 10px -5px 5px #d0c265;
+}
+
+img {
+  height: 400px;
+  border-radius: 10px;
+  display: block;
+  align-content: center;
+}
+
+h1,
+p {
+  font-family: "krona", sans-serif;
+  color: #efe3c8;
+}
+
+h1 {
+  color: #b6ffeb;
+  text-align: right;
+  padding-bottom: 15px;
+}
+
+p {
+  color: #b6ffeb;
+  text-align: left;
+  text-align: right;
+  padding-bottom: 15px;
+  line-height: 1.4;
+}
+
+strong {
+  color: #f2cd5e;
+}
+
+/* .insta,
+.github {
+    height: 50px;
+    width: 200px;
+    background-color: #d0c265;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    font-family: "krona", sans-serif;
+    margin: 10px;
+    align-items: baseline;
+} */
+
+.botoes {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.botoes button {
+  height: 50px;
+  width: 225px;
+  background-color: #d0c265;
+
+  border: none;
+  border-radius: 10px;
+  font-family: "krona", sans-serif;
+  font-size: 18px;
+}
+
+.botoes a {
+  color: #105c46;
+}
